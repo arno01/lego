@@ -44,6 +44,8 @@ func (j *JWS) SignContent(url string, content []byte) (*jose.JSONWebSignature, e
 			alg = jose.ES256
 		} else if k.Curve == elliptic.P384() {
 			alg = jose.ES384
+		} else if k.Curve == elliptic.P521() {
+			alg = jose.ES512
 		}
 	}
 
