@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-acme/lego/v3/challenge/dns01"
-	"github.com/go-acme/lego/v3/platform/config/env"
-	"github.com/go-acme/lego/v3/providers/dns/cloudxns/internal"
+	"github.com/arno01/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/platform/config/env"
+	"github.com/arno01/lego/v3/providers/dns/cloudxns/internal"
 )
 
 // Config is used to configure the creation of the DNSProvider

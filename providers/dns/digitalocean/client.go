@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/go-acme/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/challenge/dns01"
 )
 
 const defaultBaseURL = "https://api.digitalocean.com"

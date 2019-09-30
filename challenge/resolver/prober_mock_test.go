@@ -3,8 +3,8 @@ package resolver
 import (
 	"time"
 
-	"github.com/go-acme/lego/v3/acme"
-	"github.com/go-acme/lego/v3/challenge"
+	"github.com/arno01/lego/v3/acme"
+	"github.com/arno01/lego/v3/challenge"
 )
 
 type preSolverMock struct {

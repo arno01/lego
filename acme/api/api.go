@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v3"
-	"github.com/go-acme/lego/v3/acme"
-	"github.com/go-acme/lego/v3/acme/api/internal/nonces"
-	"github.com/go-acme/lego/v3/acme/api/internal/secure"
-	"github.com/go-acme/lego/v3/acme/api/internal/sender"
-	"github.com/go-acme/lego/v3/log"
+	"github.com/arno01/lego/v3/acme"
+	"github.com/arno01/lego/v3/acme/api/internal/nonces"
+	"github.com/arno01/lego/v3/acme/api/internal/secure"
+	"github.com/arno01/lego/v3/acme/api/internal/sender"
+	"github.com/arno01/lego/v3/log"
 )
 
 // Core ACME/LE core API.

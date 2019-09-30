@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-acme/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/challenge/dns01"
 	"github.com/sacloud/libsacloud/api"
 	"github.com/sacloud/libsacloud/sacloud"
 )

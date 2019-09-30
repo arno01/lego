@@ -10,12 +10,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-acme/lego/v3/certificate"
-	"github.com/go-acme/lego/v3/challenge/http01"
-	"github.com/go-acme/lego/v3/challenge/tlsalpn01"
-	"github.com/go-acme/lego/v3/e2e/loader"
-	"github.com/go-acme/lego/v3/lego"
-	"github.com/go-acme/lego/v3/registration"
+	"github.com/arno01/lego/v3/certificate"
+	"github.com/arno01/lego/v3/challenge/http01"
+	"github.com/arno01/lego/v3/challenge/tlsalpn01"
+	"github.com/arno01/lego/v3/e2e/loader"
+	"github.com/arno01/lego/v3/lego"
+	"github.com/arno01/lego/v3/registration"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
