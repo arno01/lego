@@ -74,6 +74,8 @@ func getKeyType(ctx *cli.Context) certcrypto.KeyType {
 		return certcrypto.EC256
 	case "EC384":
 		return certcrypto.EC384
+	case "EC521":
+		return certcrypto.EC521
 	}
 
 	log.Fatalf("Unsupported KeyType: %s", keyType)
