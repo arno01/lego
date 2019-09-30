@@ -3,7 +3,7 @@ package cmd
 import (
 	"crypto"
 
-	"github.com/go-acme/lego/v3/registration"
+	"github.com/arno01/lego/v3/registration"
 )
 
 // Account represents a users local saved credentials

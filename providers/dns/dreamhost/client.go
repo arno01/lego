@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/url"
 
-	"github.com/go-acme/lego/v3/log"
+	"github.com/arno01/lego/v3/log"
 )
 
 const (

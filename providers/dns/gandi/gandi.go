@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v3/challenge/dns01"
-	"github.com/go-acme/lego/v3/platform/config/env"
+	"github.com/arno01/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/platform/config/env"
 )
 
 // Gandi API reference:       http://doc.rpc.gandi.net/index.html

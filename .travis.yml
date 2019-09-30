@@ -14,7 +14,7 @@ matrix:
   allow_failures:
     - go: tip
 
-go_import_path: github.com/go-acme/lego
+go_import_path: github.com/arno01/lego
 
 env:
   global:

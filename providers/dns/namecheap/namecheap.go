@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v3/challenge/dns01"
-	"github.com/go-acme/lego/v3/log"
-	"github.com/go-acme/lego/v3/platform/config/env"
+	"github.com/arno01/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/log"
+	"github.com/arno01/lego/v3/platform/config/env"
 )
 
 // Notes about namecheap's tool API:

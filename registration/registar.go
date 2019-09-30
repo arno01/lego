@@ -4,14 +4,14 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/go-acme/lego/v3/acme"
-	"github.com/go-acme/lego/v3/acme/api"
-	"github.com/go-acme/lego/v3/log"
+	"github.com/arno01/lego/v3/acme"
+	"github.com/arno01/lego/v3/acme/api"
+	"github.com/arno01/lego/v3/log"
 )
 
 // Resource represents all important information about a registration
 // of which the client needs to keep track itself.
-// WARNING: will be remove in the future (acme.ExtendedAccount), https://github.com/go-acme/lego/issues/855.
+// WARNING: will be remove in the future (acme.ExtendedAccount), https://github.com/arno01/lego/issues/855.
 type Resource struct {
 	Body acme.Account `json:"body,omitempty"`
 	URI  string       `json:"uri,omitempty"`
